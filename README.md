@@ -1,78 +1,164 @@
-# Java Learning Journey 🚀
+<div align="center">
 
-Welcome to my Java learning repository! This is where I document my progress as I learn Java programming from scratch.
+# ☕ Java Learning Journey
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Learning-yellow?style=for-the-badge)
+![JDK](https://img.shields.io/badge/JDK-25-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+**Welcome to my Java learning repository!** 🚀  
+*Documenting my journey from beginner to proficient Java developer*
+
+</div>
+
+---
 
 ## 📚 About This Repository
 
-This repository contains Java programs and exercises that I'm working on as part of my journey to learn Java. Each program helps me understand different concepts and features of the Java programming language.
+This repository is my personal learning space where I practice Java programming concepts, build small projects, and document my progress. Each program represents a step forward in understanding Java's core features and best practices.
 
-## 🎯 Current Projects
+> 💡 **Goal:** Master Java fundamentals and build a strong foundation for backend development and software engineering.
 
-### BuffReader - User Input Program
-My first Java program that demonstrates how to read user input using `BufferedReader`.
+---
 
-**What it does:**
-- Reads a line of text from the user
-- Prints the input back to the console
-- Demonstrates basic input/output operations in Java
+## 🎯 Projects & Programs
 
-**Concepts learned:**
-- `BufferedReader` for reading input
+### 1️⃣ BuffReader - User Input Handler
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+My first Java program demonstrating input/output operations using `BufferedReader`.
+
+**✨ Features:**
+- Reads user input from console
+- Echoes input back to user
+- Clean exception handling
+
+**🧠 Concepts Learned:**
+- `BufferedReader` for input streams
 - `InputStreamReader` for stream conversion
 - Exception handling with `throws IOException`
-- Basic Java program structure
+- Java program structure (main method)
+
+**📂 File:** [`BuffReader.java`](BuffReader.java)
+
+---
 
 ## 🛠️ How to Run
 
 ### Prerequisites
-- Java JDK installed (I'm using JDK 25)
-- Terminal/Command Prompt access
-
-### Running BuffReader.java
-
-1. **Compile the program:**
-   ```bash
-   javac BuffReader.java
-   ```
-
-2. **Run the program:**
-   ```bash
-   java BuffReader
-   ```
-
-3. **Provide input:**
-   - Type your text (e.g., "Hello, Java!")
-   - Press Enter
-   - The program will print your input back
-
-### Example:
-```
-$ java BuffReader
-Hello, Java!          ← Your input
-Hello, Java!          ← Program output
+```bash
+☑️ Java JDK 11+ (I'm using JDK 25)
+☑️ Terminal/Command Prompt
+☑️ Text editor or IDE (optional)
 ```
 
-## 📖 Learning Resources
+### Running Any Java Program
 
-I'm learning Java through various resources and practice. As I progress, I'll add more programs to this repository.
+1️⃣ **Compile:**
+```bash
+javac ProgramName.java
+```
 
-## 🎓 Current Learning Goals
+2️⃣ **Run:**
+```bash
+java ProgramName
+```
 
-- ✅ Understanding basic Java syntax
-- ✅ Reading user input with BufferedReader
-- 🔄 Working with different data types
-- 🔄 Learning control structures (if, loops)
-- ⏳ Object-Oriented Programming concepts
+### Quick Example with BuffReader:
+```bash
+# Compile
+javac BuffReader.java
 
-## 📝 Notes
+# Run
+java BuffReader
 
-This is a beginner repository - the code may not be perfect, but it represents my learning progress. I'm open to feedback and suggestions!
-
-## 📫 Connect With Me
-
-Feel free to reach out if you have any suggestions or want to discuss Java learning!
+# Input & Output
+Hello, Java!          ← You type this
+Hello, Java!          ← Program echoes back
+```
 
 ---
 
-**Status:** 🌱 Just started learning Java  
-**Last Updated:** January 2026
+## 📖 Learning Path
+
+### ✅ Completed
+- [x] Java installation & setup
+- [x] Basic syntax and structure
+- [x] Input/Output with BufferedReader
+- [x] Exception handling basics
+
+### 🔄 In Progress
+- [ ] Data types and variables
+- [ ] Operators and expressions
+- [ ] Control flow (if/else, switch)
+- [ ] Loops (for, while, do-while)
+
+### ⏳ Upcoming
+- [ ] Arrays and collections
+- [ ] Methods and functions
+- [ ] Object-Oriented Programming (OOP)
+- [ ] File I/O operations
+- [ ] Exception handling (advanced)
+
+---
+
+## 📚 Resources I'm Using
+
+- ☕ [Oracle Java Documentation](https://docs.oracle.com/en/java/)
+- 📖 Online tutorials and courses
+- 💻 Practice coding challenges
+- 🎥 YouTube tutorials
+
+---
+
+## 🏆 Learning Goals 2026
+
+```
+🎯 Master Java fundamentals
+🎯 Build 10+ small projects
+🎯 Understand OOP principles
+🎯 Learn data structures & algorithms
+🎯 Contribute to open source
+```
+
+---
+
+## 📁 Repository Structure
+
+```
+java-learning/
+├── BuffReader.java       # Input/output program
+├── README.md            # This file
+└── .gitignore           # Git ignore rules
+```
+
+---
+
+## 🤝 Contributing
+
+This is a personal learning repository, but I'm open to:
+- 💡 Suggestions for improvement
+- 🐛 Bug reports in my code
+- 📚 Learning resource recommendations
+- 🎓 Best practice feedback
+
+Feel free to open an issue or reach out!
+
+---
+
+## 📫 Connect With Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-omrajputt369--byte-181717?style=for-the-badge&logo=github)](https://github.com/omrajputt369-byte)
+
+---
+
+<div align="center">
+
+### 🌱 Status: Beginner | 📅 Started: January 2026
+
+**"The journey of a thousand miles begins with a single line of code."**
+
+⭐ Star this repo if you're also learning Java!
+
+</div>
