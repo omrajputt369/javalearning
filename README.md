@@ -44,6 +44,28 @@ My first Java program demonstrating input/output operations using `BufferedReade
 
 ---
 
+### 2️⃣ Scanner - Multiple Input Types
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program demonstrating the `Scanner` class for reading different data types from user input.
+
+**✨ Features:**
+- Reads String, Integer, and Float inputs
+- User-friendly prompts for each input
+- Demonstrates type-specific input methods
+- Proper resource management with `scanner.close()`
+
+**🧠 Concepts Learned:**
+- `Scanner` class for versatile input handling
+- Type-specific methods: `nextLine()`, `nextInt()`, `nextFloat()`
+- Case sensitivity in Java (String vs string, Scanner vs scanner)
+- Proper string concatenation with `+` operator
+- Resource management and closing scanners
+
+**📂 File:** [`scanner.java`](scanner.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -86,7 +108,10 @@ Hello, Java!          ← Program echoes back
 - [x] Java installation & setup
 - [x] Basic syntax and structure
 - [x] Input/Output with BufferedReader
+- [x] Input/Output with Scanner class
 - [x] Exception handling basics
+- [x] Understanding case sensitivity in Java
+- [x] String concatenation
 
 ### 🔄 In Progress
 - [ ] Data types and variables
@@ -128,7 +153,9 @@ Hello, Java!          ← Program echoes back
 
 ```
 java-learning/
-├── BuffReader.java       # Input/output program
+├── BuffReader.java      # Input/output with BufferedReader
+├── scanner.java         # Input/output with Scanner class
+├── LICENSE              # MIT License
 ├── README.md            # This file
 └── .gitignore           # Git ignore rules
 ```
