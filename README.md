@@ -89,6 +89,36 @@ A simple bank account simulation demonstrating object-oriented programming conce
 
 ---
 
+### 4️⃣ Animal & Dog - Inheritance Demo
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program demonstrating Java inheritance with Animal parent class and Dog child class.
+
+**✨ Features:**
+- Parent class `Animal` with `eat()` method
+- Child class `Dog` extends Animal
+- Dog inherits `eat()` from Animal
+- Dog adds its own `bark()` method
+- Demonstrates method inheritance in action
+
+**🧠 Concepts Learned:**
+- **Inheritance** - extending parent classes
+- `extends` keyword for creating subclasses
+- Method inheritance from parent to child
+- Code reusability through inheritance
+- Parent-child class relationships
+- Multiple classes in one file
+
+**📂 File:** [`Animal.java`](Animal.java)
+
+> **💡 Tip:** This file contains both `Animal` and `Dog` classes. The `main` method is in `Dog`:
+> ```bash
+> javac Animal.java
+> java Dog  # Run the class with main method
+> ```
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -139,6 +169,9 @@ Hello, Java!          ← Program echoes back
 - [x] Classes and objects
 - [x] Encapsulation with private fields
 - [x] Public methods (getters and setters)
+- [x] **Inheritance** - extending classes
+- [x] Parent-child class relationships
+- [x] Method inheritance and code reusability
 
 ### 🔄 In Progress
 - [x] Control flow (if/else, switch)
@@ -147,6 +180,7 @@ Hello, Java!          ← Program echoes back
 - [ ] Loops (for, while, do-while)
 
 ### ⏳ Upcoming
+- [ ] **Polymorphism** and method overriding
 - [ ] Arrays and collections
 - [ ] Methods and functions
 - [ ] Object-Oriented Programming (OOP)
@@ -183,6 +217,7 @@ java-learning/
 ├── BuffReader.java      # Input/output with BufferedReader
 ├── scanner.java         # Input/output with Scanner class
 ├── BankAccount.java     # Bank account OOP demo
+├── Animal.java          # Inheritance demo (Animal & Dog)
 ├── LICENSE              # MIT License
 ├── README.md            # This file
 └── .gitignore           # Git ignore rules
