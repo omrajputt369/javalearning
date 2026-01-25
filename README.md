@@ -150,6 +150,30 @@ A program demonstrating polymorphism and method overriding with Shape parent cla
 
 ---
 
+### 6️⃣ Calculator - Method Overloading Demo
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program demonstrating method overloading (compile-time polymorphism) with multiple `add()` methods.
+
+**✨ Features:**
+- Three `add()` methods with different signatures
+- `add(int, int)` - adds two integers
+- `add(double, double)` - adds two doubles
+- `add(int, int, int)` - adds three integers
+- Same method name, different parameters
+- Demonstrates compile-time polymorphism
+
+**🧠 Concepts Learned:**
+- **Method Overloading** - multiple methods with same name
+- Compile-time polymorphism (static binding)
+- Method signature differences (number/type of parameters)
+- Return types with different data types
+- Method resolution at compile time
+
+**📂 File:** [`Calculator.java`](Calculator.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -208,6 +232,8 @@ Hello, Java!          ← Program echoes back
 - [x] Runtime polymorphism (dynamic method dispatch)
 - [x] Constructors in child classes
 - [x] `this` keyword
+- [x] **Method Overloading** - compile-time polymorphism
+- [x] Method signatures and parameter differences
 
 ### 🔄 In Progress
 - [x] Control flow (if/else, switch)
@@ -255,6 +281,7 @@ java-learning/
 ├── BankAccount.java     # Bank account OOP demo
 ├── Animal.java          # Inheritance demo (Animal & Dog)
 ├── Shape.java           # Polymorphism demo (Shape & Circle)
+├── Calculator.java      # Method overloading demo
 ├── LICENSE              # MIT License
 ├── README.md            # This file
 └── .gitignore           # Git ignore rules
