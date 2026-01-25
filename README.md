@@ -85,13 +85,7 @@ A simple bank account simulation demonstrating object-oriented programming conce
 - Conditional logic for validation
 - Method chaining and object behavior
 
-**📂 File:** [`balance.java`](balance.java)
-
-> **💡 Important:** The file is named `balance.java` but the class is `BankAccount`. To run:
-> ```bash
-> javac balance.java
-> java BankAccount  # Use class name, not filename!
-> ```
+**📂 File:** [`BankAccount.java`](BankAccount.java)
 
 ---
 
@@ -188,7 +182,7 @@ Hello, Java!          ← Program echoes back
 java-learning/
 ├── BuffReader.java      # Input/output with BufferedReader
 ├── scanner.java         # Input/output with Scanner class
-├── balance.java         # Bank account OOP demo
+├── BankAccount.java     # Bank account OOP demo
 ├── LICENSE              # MIT License
 ├── README.md            # This file
 └── .gitignore           # Git ignore rules
