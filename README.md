@@ -66,6 +66,35 @@ A program demonstrating the `Scanner` class for reading different data types fro
 
 ---
 
+### 3️⃣ BankAccount - Object-Oriented Banking
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A simple bank account simulation demonstrating object-oriented programming concepts.
+
+**✨ Features:**
+- Deposit money into account
+- Withdraw money with balance validation
+- Check current balance
+- Encapsulation with private balance field
+
+**🧠 Concepts Learned:**
+- Object-Oriented Programming (OOP) basics
+- Class creation and object instantiation
+- Private instance variables (encapsulation)
+- Public methods (getters and setters)
+- Conditional logic for validation
+- Method chaining and object behavior
+
+**📂 File:** [`balance.java`](balance.java)
+
+> **💡 Important:** The file is named `balance.java` but the class is `BankAccount`. To run:
+> ```bash
+> javac balance.java
+> java BankAccount  # Use class name, not filename!
+> ```
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -112,11 +141,15 @@ Hello, Java!          ← Program echoes back
 - [x] Exception handling basics
 - [x] Understanding case sensitivity in Java
 - [x] String concatenation
+- [x] Object-Oriented Programming basics
+- [x] Classes and objects
+- [x] Encapsulation with private fields
+- [x] Public methods (getters and setters)
 
 ### 🔄 In Progress
-- [ ] Data types and variables
+- [x] Control flow (if/else, switch)
+- [ ] Data types and variables (advanced)
 - [ ] Operators and expressions
-- [ ] Control flow (if/else, switch)
 - [ ] Loops (for, while, do-while)
 
 ### ⏳ Upcoming
@@ -155,6 +188,7 @@ Hello, Java!          ← Program echoes back
 java-learning/
 ├── BuffReader.java      # Input/output with BufferedReader
 ├── scanner.java         # Input/output with Scanner class
+├── balance.java         # Bank account OOP demo
 ├── LICENSE              # MIT License
 ├── README.md            # This file
 └── .gitignore           # Git ignore rules
