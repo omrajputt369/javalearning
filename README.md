@@ -119,6 +119,37 @@ A program demonstrating Java inheritance with Animal parent class and Dog child 
 
 ---
 
+### 5️⃣ Shape & Circle - Polymorphism Demo
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program demonstrating polymorphism and method overriding with Shape parent class and Circle child class.
+
+**✨ Features:**
+- Parent class `Shape` with default `area()` method
+- Child class `Circle` extends Shape
+- Circle **overrides** the `area()` method with `@Override` annotation
+- Demonstrates runtime polymorphism
+- Constructor with parameters in Circle
+- Calculates actual circle area using formula πr²
+
+**🧠 Concepts Learned:**
+- **Polymorphism** - same method, different behaviors
+- **Method overriding** with `@Override` annotation
+- Runtime polymorphism (dynamic method dispatch)
+- Parent reference to child object: `Shape s = new Circle(5);`
+- Constructors in child classes
+- `this` keyword for instance variables
+
+**📂 File:** [`Shape.java`](Shape.java)
+
+> **💡 Tip:** This file contains both `Shape` and `Circle` classes. The `main` method is in `Circle`:
+> ```bash
+> javac Shape.java
+> java Circle  # Runs Circle's main method
+> ```
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -172,6 +203,11 @@ Hello, Java!          ← Program echoes back
 - [x] **Inheritance** - extending classes
 - [x] Parent-child class relationships
 - [x] Method inheritance and code reusability
+- [x] **Polymorphism** - method overriding
+- [x] `@Override` annotation
+- [x] Runtime polymorphism (dynamic method dispatch)
+- [x] Constructors in child classes
+- [x] `this` keyword
 
 ### 🔄 In Progress
 - [x] Control flow (if/else, switch)
@@ -180,7 +216,7 @@ Hello, Java!          ← Program echoes back
 - [ ] Loops (for, while, do-while)
 
 ### ⏳ Upcoming
-- [ ] **Polymorphism** and method overriding
+- [ ] Abstract classes and interfaces
 - [ ] Arrays and collections
 - [ ] Methods and functions
 - [ ] Object-Oriented Programming (OOP)
@@ -218,6 +254,7 @@ java-learning/
 ├── scanner.java         # Input/output with Scanner class
 ├── BankAccount.java     # Bank account OOP demo
 ├── Animal.java          # Inheritance demo (Animal & Dog)
+├── Shape.java           # Polymorphism demo (Shape & Circle)
 ├── LICENSE              # MIT License
 ├── README.md            # This file
 └── .gitignore           # Git ignore rules
