@@ -276,7 +276,7 @@ Feel free to open an issue or reach out!
 
 ## 📫 Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-omrajputt369--byte-181717?style=for-the-badge&logo=github)](https://github.com/omrajputt369-byte)
+[![GitHub](https://img.shields.io/badge/GitHub-omrajputt369--byte-181717?style=for-the-badge&logo=github)](https://github.com/omrajputt369)
 
 ---
 
