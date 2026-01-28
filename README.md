@@ -174,6 +174,38 @@ A program demonstrating method overloading (compile-time polymorphism) with mult
 
 ---
 
+### 7️⃣ ScientificCalculator - Advanced Calculator
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A comprehensive menu-driven scientific calculator supporting basic arithmetic, trigonometric functions, logarithms, and more.
+
+**✨ Features:**
+- **Basic Operations:** Addition, Subtraction, Multiplication, Division, Modulus
+- **Advanced Math:** Power (a^b), Square root
+- **Trigonometry:** Sin, Cos, Tan (with degree to radian conversion)
+- **Logarithms:** log10(x) and ln(x)
+- **Other Functions:** Absolute value, Factorial
+- **Constants:** Access to π (pi) and e
+- **Input Validation:** Handles division by zero, negative factorials, invalid logarithms
+- **Menu-driven Interface:** Interactive loop for continuous calculations
+- **Exception Handling:** Robust error handling for invalid inputs
+
+**🧠 Concepts Learned:**
+- **Switch-Case Statements** - menu-driven program flow
+- **While Loops** - infinite loop with break condition
+- **Math Class** - `Math.pow()`, `Math.sqrt()`, `Math.sin()`, `Math.cos()`, `Math.tan()`, `Math.log()`, `Math.log10()`, `Math.abs()`, `Math.PI`, `Math.E`
+- **Trigonometric Conversions** - `Math.toRadians()` for degree to radian conversion
+- **Static Methods** - custom factorial method
+- **Exception Handling** - try-catch blocks with `IllegalArgumentException`
+- **Input Parsing** - `Integer.parseInt()`, `Double.parseDouble()`, `Long.parseLong()`
+- **String Methods** - `trim()` for input sanitization
+- **Iterative Algorithms** - factorial calculation using loops
+- **Conditional Logic** - validation for mathematical constraints (division by zero, negative square roots, etc.)
+
+**📂 File:** [`ScientificCalculator.java`](ScientificCalculator.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -234,12 +266,20 @@ Hello, Java!          ← Program echoes back
 - [x] `this` keyword
 - [x] **Method Overloading** - compile-time polymorphism
 - [x] Method signatures and parameter differences
+- [x] **Advanced Math Operations** - Math class methods
+- [x] Trigonometric functions (sin, cos, tan)
+- [x] Logarithms (log10, ln)
+- [x] Power and square root operations
+- [x] **Control Flow** - switch-case statements
+- [x] **Loops** - while loops with break conditions
+- [x] **Exception Handling** - try-catch blocks
+- [x] Custom exceptions (IllegalArgumentException)
+- [x] Input validation and sanitization
+- [x] Iterative algorithms (factorial)
 
 ### 🔄 In Progress
-- [x] Control flow (if/else, switch)
 - [ ] Data types and variables (advanced)
 - [ ] Operators and expressions
-- [ ] Loops (for, while, do-while)
 
 ### ⏳ Upcoming
 - [ ] Abstract classes and interfaces
@@ -276,15 +316,16 @@ Hello, Java!          ← Program echoes back
 
 ```
 java-learning/
-├── BuffReader.java      # Input/output with BufferedReader
-├── scanner.java         # Input/output with Scanner class
-├── BankAccount.java     # Bank account OOP demo
-├── Animal.java          # Inheritance demo (Animal & Dog)
-├── Shape.java           # Polymorphism demo (Shape & Circle)
-├── Calculator.java      # Method overloading demo
-├── LICENSE              # MIT License
-├── README.md            # This file
-└── .gitignore           # Git ignore rules
+├── BuffReader.java          # Input/output with BufferedReader
+├── scanner.java             # Input/output with Scanner class
+├── BankAccount.java         # Bank account OOP demo
+├── Animal.java              # Inheritance demo (Animal & Dog)
+├── Shape.java               # Polymorphism demo (Shape & Circle)
+├── Calculator.java          # Method overloading demo
+├── ScientificCalculator.java # Advanced scientific calculator
+├── LICENSE                  # MIT License
+├── README.md                # This file
+└── .gitignore               # Git ignore rules
 ```
 
 ---
