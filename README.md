@@ -206,6 +206,48 @@ A comprehensive menu-driven scientific calculator supporting basic arithmetic, t
 
 ---
 
+### 8️⃣ IfDemo - Conditional Statements
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A simple program demonstrating conditional statements in Java using the `if` statement.
+
+**✨ Features:**
+- Basic if-statement implementation
+- Integer comparison
+- Conditional output based on condition evaluation
+
+**🧠 Concepts Learned:**
+- **If Statements** - basic conditional control flow
+- **Comparison Operators** - using `<` for less than comparison
+- **Boolean Expressions** - evaluating conditions to true or false
+- **Code Blocks** - grouping statements with curly braces `{}`
+
+**📂 File:** [`IfDemo.java`](IfDemo.java)
+
+---
+
+### 9️⃣ OneDArray - Array Fundamentals
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program demonstrating basic array operations including declaration, input, and output of one-dimensional arrays.
+
+**✨ Features:**
+- Array declaration with fixed size
+- Takes 5 integer inputs from user using Scanner
+- Displays all array elements
+- Demonstrates proper resource management with `scanner.close()`
+
+**🧠 Concepts Learned:**
+- **Arrays** - declaring and initializing arrays (`int arr[] = new int[5]`)
+- **Array Indexing** - accessing elements using index `arr[i]`
+- **For Loops** - iterating through arrays
+- **Scanner Class** - reading integer inputs with `nextInt()`
+- **Array Traversal** - processing each element sequentially
+
+**📂 File:** [`OneDArray.java`](OneDArray.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -276,6 +318,12 @@ Hello, Java!          ← Program echoes back
 - [x] Custom exceptions (IllegalArgumentException)
 - [x] Input validation and sanitization
 - [x] Iterative algorithms (factorial)
+- [x] **Conditional Statements** - if statements
+- [x] Comparison operators and boolean expressions
+- [x] **Arrays** - one-dimensional arrays
+- [x] Array declaration and initialization
+- [x] Array indexing and traversal
+- [x] For loops with arrays
 
 ### 🔄 In Progress
 - [ ] Data types and variables (advanced)
@@ -323,6 +371,8 @@ java-learning/
 ├── Shape.java               # Polymorphism demo (Shape & Circle)
 ├── Calculator.java          # Method overloading demo
 ├── ScientificCalculator.java # Advanced scientific calculator
+├── IfDemo.java              # Conditional statements demo
+├── OneDArray.java           # One-dimensional arrays demo
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
