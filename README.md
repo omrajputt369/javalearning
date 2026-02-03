@@ -270,6 +270,28 @@ A program that finds the largest of three numbers using nested if-else statement
 
 ---
 
+### 1️⃣1️⃣ ReverseNumber - Digit Reversal Algorithm
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program that reverses the digits of a number using a while loop and mathematical operations.
+
+**✨ Features:**
+- Reverses digits of an integer (e.g., 123 → 321)
+- Uses while loop for iteration
+- Demonstrates modulus and division operators
+- Algorithm-based digit manipulation
+
+**🧠 Concepts Learned:**
+- **While Loops** - iteration until condition is false
+- **Modulus Operator (`%`)** - extracting last digit with `n % 10`
+- **Integer Division (`/`)** - removing last digit with `n / 10`
+- **Algorithm Design** - digit reversal logic
+- **Variable Updates** - building the reversed number incrementally
+
+**📂 File:** [`ReverseNumber.java`](ReverseNumber.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -348,6 +370,9 @@ Hello, Java!          ← Program echoes back
 - [x] Array declaration and initialization
 - [x] Array indexing and traversal
 - [x] For loops with arrays
+- [x] **Modulus Operator** - extracting digits with `%`
+- [x] **Integer Division** - digit manipulation
+- [x] **Algorithm Design** - digit reversal logic
 
 ### 🔄 In Progress
 - [ ] Data types and variables (advanced)
@@ -398,6 +423,7 @@ java-learning/
 ├── IfDemo.java              # Conditional statements demo
 ├── OneDArray.java           # One-dimensional arrays demo
 ├── Largestnumber.java       # Find largest of three numbers
+├── ReverseNumber.java       # Reverse digits of a number
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
