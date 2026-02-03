@@ -292,6 +292,28 @@ A program that reverses the digits of a number using a while loop and mathematic
 
 ---
 
+### 1️⃣2️⃣ Palindrome - Palindrome Number Checker
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program that checks if a number is a palindrome by reversing it and comparing with the original.
+
+**✨ Features:**
+- Checks if a number reads the same forwards and backwards
+- Uses digit reversal technique
+- Stores original value in temporary variable
+- Demonstrates equality comparison
+
+**🧠 Concepts Learned:**
+- **Temporary Variables** - preserving original value (`temp = n`)
+- **Palindrome Logic** - comparing original with reversed number
+- **Compound Assignment** - using `temp /= 10` instead of `temp = temp / 10`
+- **Equality Operator** - using `==` for number comparison
+- **Algorithm Reuse** - applying digit reversal from previous program
+
+**📂 File:** [`PalindromNumber.java`](PalindromNumber.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -373,6 +395,9 @@ Hello, Java!          ← Program echoes back
 - [x] **Modulus Operator** - extracting digits with `%`
 - [x] **Integer Division** - digit manipulation
 - [x] **Algorithm Design** - digit reversal logic
+- [x] **Temporary Variables** - preserving original values
+- [x] **Compound Assignment Operators** - `/=` operator
+- [x] **Palindrome Checking** - algorithm implementation
 
 ### 🔄 In Progress
 - [ ] Data types and variables (advanced)
@@ -424,6 +449,7 @@ java-learning/
 ├── OneDArray.java           # One-dimensional arrays demo
 ├── Largestnumber.java       # Find largest of three numbers
 ├── ReverseNumber.java       # Reverse digits of a number
+├── PalindromNumber.java     # Check if number is palindrome
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
