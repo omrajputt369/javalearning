@@ -314,6 +314,28 @@ A program that checks if a number is a palindrome by reversing it and comparing 
 
 ---
 
+### 1️⃣3️⃣ Factorial - Factorial Calculator
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program that calculates the factorial of a number using a for loop.
+
+**✨ Features:**
+- Calculates factorial (5! = 5 × 4 × 3 × 2 × 1 = 120)
+- Uses for loop for iteration
+- Demonstrates multiplication assignment operator
+- Efficient iterative approach
+
+**🧠 Concepts Learned:**
+- **For Loops** - loop with initialization, condition, and increment
+- **Multiplication Assignment** - using `fact *= i` instead of `fact = fact * i`
+- **Loop Initialization** - starting from 1 to n
+- **Accumulator Pattern** - building result through iterations
+- **Factorial Algorithm** - iterative implementation
+
+**📂 File:** [`Factorial.java`](Factorial.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -398,6 +420,9 @@ Hello, Java!          ← Program echoes back
 - [x] **Temporary Variables** - preserving original values
 - [x] **Compound Assignment Operators** - `/=` operator
 - [x] **Palindrome Checking** - algorithm implementation
+- [x] **Multiplication Assignment** - `*=` operator
+- [x] **Accumulator Pattern** - building results through iterations
+- [x] **Factorial Algorithm** - iterative implementation
 
 ### 🔄 In Progress
 - [ ] Data types and variables (advanced)
@@ -450,6 +475,7 @@ java-learning/
 ├── Largestnumber.java       # Find largest of three numbers
 ├── ReverseNumber.java       # Reverse digits of a number
 ├── PalindromNumber.java     # Check if number is palindrome
+├── Factorial.java           # Calculate factorial using for loop
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
