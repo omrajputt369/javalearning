@@ -248,6 +248,28 @@ A program demonstrating basic array operations including declaration, input, and
 
 ---
 
+### 🔟 LargestNumber - Finding Maximum Value
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+A program that finds the largest of three numbers using nested if-else statements and logical operators.
+
+**✨ Features:**
+- Compares three integer values
+- Uses nested if-else statements
+- Implements logical AND operator (`&&`)
+- Displays which number is the largest
+
+**🧠 Concepts Learned:**
+- **Nested If-Else Statements** - multiple conditional branches
+- **Logical Operators** - using `&&` (AND) operator
+- **Comparison Operators** - `>=` for greater than or equal to
+- **Conditional Logic** - evaluating multiple conditions
+- **Code Efficiency** - minimizing comparisons with logical operators
+
+**📂 File:** [`Largestnumber.java`](Largestnumber.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -319,6 +341,8 @@ Hello, Java!          ← Program echoes back
 - [x] Input validation and sanitization
 - [x] Iterative algorithms (factorial)
 - [x] **Conditional Statements** - if statements
+- [x] **Nested If-Else Statements** - multiple conditional branches
+- [x] **Logical Operators** - AND (`&&`) operator
 - [x] Comparison operators and boolean expressions
 - [x] **Arrays** - one-dimensional arrays
 - [x] Array declaration and initialization
@@ -373,6 +397,7 @@ java-learning/
 ├── ScientificCalculator.java # Advanced scientific calculator
 ├── IfDemo.java              # Conditional statements demo
 ├── OneDArray.java           # One-dimensional arrays demo
+├── Largestnumber.java       # Find largest of three numbers
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
