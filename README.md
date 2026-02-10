@@ -770,6 +770,66 @@ Number theory program for perfect, abundant, and deficient number classification
 
 ---
 
+## 🔥 Advanced Programs (Batch 2)
+
+### 3️⃣2️⃣-5️⃣6️⃣ Algorithms, Data Structures & Utilities (25 Programs)
+
+This collection includes advanced sorting algorithms, searching techniques, data structure implementations, and practical converters/calculators.
+
+#### **Sorting & Searching Algorithms** (7 programs)
+
+- **[`BinarySearch.java`](BinarySearch.java)** - Binary search (iterative, recursive, with step visualization)
+- **[`LinearSearchEnhanced.java`](LinearSearchEnhanced.java)** - Enhanced linear search with multiple occurrence finding
+- **[`SelectionSort.java`](SelectionSort.java)** - Selection sort with visualization
+- **[`InsertionSort.java`](InsertionSort.java)** - Insertion sort showing element shifts
+- **[`MergeSort.java`](MergeSort.java)** - Divide-and-conquer merge sort
+- **[`QuickSort.java`](QuickSort.java)** - Partition-based quicksort
+- **[`SearchingSortingDemo.java`](SearchingSortingDemo.java)** - Algorithm performance comparison with timing
+
+#### **Data Structures** (5 programs)
+
+- **[`StackImpl.java`](StackImpl.java)** - Array-based stack (push, pop, peek)
+- **[`QueueImpl.java`](QueueImpl.java)** - Circular queue implementation
+- **[`CircularQueueImpl.java`](CircularQueueImpl.java)** - Enhanced circular queue with front/rear tracking
+- **[`LinkedListImpl.java`](LinkedListImpl.java)** - Singly linked list
+- **[`DoublyLinkedList.java`](DoublyLinkedList.java)** - Doubly linked list with bidirectional traversal
+
+#### **Number System Converters** (2 programs)
+
+- **[`DecimalConverter.java`](DecimalConverter.java)** - Decimal to Binary/Octal/Hexadecimal
+- **[`BinaryConverter.java`](BinaryConverter.java)** - Binary to Decimal/Octal/Hex with validation
+
+#### **Unit Converters** (4 programs)
+
+- **[`TimeConverter.java`](TimeConverter.java)** - Time unit conversions (seconds/minutes/hours)
+- **[`CurrencyConverter.java`](CurrencyConverter.java)** - Multi-currency converter (USD/EUR/GBP/INR/JPY)
+- **[`RomanNumerals.java`](RomanNumerals.java)** - Decimal ↔ Roman numeral conversions
+- **[`UnitConverter.java`](UnitConverter.java)** - Length & weight conversions
+
+#### **Geometry Calculators** (4 programs)
+
+- **[`AreaCalculator.java`](AreaCalculator.java)** - Area of 6 shapes (circle, rectangle, triangle, square, trapezoid, parallelogram)
+- **[`VolumeCalculator.java`](VolumeCalculator.java)** - Volume of 5 3D shapes (cube, cuboid, sphere, cylinder, cone)
+- **[`PerimeterCalculator.java`](PerimeterCalculator.java)** - Perimeter of 4 shapes
+- **[`DistanceCalculator.java`](DistanceCalculator.java)** - 2D/3D Euclidean & Manhattan distance
+
+#### **Health & Finance Calculators** (3 programs)
+
+- **[`BMICalculator.java`](BMICalculator.java)** - BMI calculator (metric/imperial with categories)
+- **[`SimpleInterestCalculator.java`](SimpleInterestCalculator.java)** - Simple & Compound interest
+- **[`AgeCalculator.java`](AgeCalculator.java)** - Detailed age calculation with next birthday
+
+**🧠 Advanced Concepts Covered:**
+- Recursion & divide-and-conquer algorithms
+- Time complexity analysis (O(n), O(log n), O(n²))
+- Data structure implementation (nodes, pointers)
+- Circular buffers & bidirectional traversal
+- Number system conversions & algorithms
+- Java Time API (`LocalDate`, `Period`)
+- Performance benchmarking with `System.nanoTime()`
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
