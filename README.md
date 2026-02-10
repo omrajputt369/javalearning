@@ -336,6 +336,440 @@ A program that calculates the factorial of a number using a for loop.
 
 ---
 
+### 1️⃣4️⃣ PalindromeChecker - String & Number Palindrome Checker
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+An interactive program that checks whether strings or numbers are palindromes with user-friendly menu options.
+
+**✨ Features:**
+- Check if strings are palindromes (case-insensitive, ignores spaces)
+- Check if numbers are palindromes
+- Menu-driven interface for easy selection
+- Clean user prompts and feedback
+
+**🧠 Concepts Learned:**
+- **String Manipulation** - `replaceAll()`, `toLowerCase()`
+- **StringBuilder** - efficient string reversal with `reverse()`
+- **Method Overloading** - separate methods for strings and numbers
+- **Algorithm Reuse** - applying digit reversal for numbers
+- **User Interface Design** - menu-based program flow
+
+**📂 File:** [`PalindromeChecker.java`](PalindromeChecker.java)
+
+---
+
+### 1️⃣5️⃣ ArmstrongNumber - Armstrong Number Validator  
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Checks if numbers are Armstrong numbers (narcissistic numbers) where the sum of digits raised to the power of digit count equals the number itself.
+
+**✨ Features:**
+- Check single numbers for Armstrong property
+- Find all Armstrong numbers in a range
+- Displays examples (153 = 1³ + 5³ + 3³)
+- Efficient digit counting algorithm
+
+**🧠 Concepts Learned:**
+- **Math.pow()** - calculating powers
+- **Digit Extraction** - counting and processing digits
+- **Algorithm Design** - Armstrong number validation
+- **Range Processing** - finding numbers in intervals
+
+**📂 File:** [`ArmstrongNumber.java`](ArmstrongNumber.java)
+
+---
+
+### 1️⃣6️⃣ FibonacciSeries - Fibonacci Number Generator
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Comprehensive Fibonacci program with multiple operation modes including iterative, recursive, and validation methods.
+
+**✨ Features:**
+- Generate first N Fibonacci numbers (iterative)
+- Find Nth Fibonacci number (recursive)
+- Check if a number is in the Fibonacci sequence
+- Generate Fibonacci numbers up to a limit
+- Multiple algorithms demonstrated
+
+**🧠 Concepts Learned:**
+- **Recursion** - recursive Fibonacci calculation
+- **Iteration vs Recursion** - comparing approaches
+- **Sequence Algorithms** - Fibonacci generation
+- **Long Data Type** - handling large Fibonacci numbers
+- **Algorithm Efficiency** - understanding trade-offs
+
+**📂 File:** [`FibonacciSeries.java`](FibonacciSeries.java)
+
+---
+
+### 1️⃣7️⃣ PrimeChecker - Prime Number Analyzer
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Advanced prime number program featuring Sieve of Eratosthenes algorithm and prime factorization.
+
+**✨ Features:**
+- Check if individual numbers are prime
+- Find all primes up to N (Sieve of Eratosthenes)
+- Find first N prime numbers
+- Calculate prime factors of any number
+- Optimized prime checking with √n limit
+
+**🧠 Concepts Learned:**
+- **Sieve of Eratosthenes** - efficient prime finding algorithm
+- **Boolean Arrays** - tracking prime status
+- **Prime Factorization** - breaking numbers into prime factors
+- **Algorithm Optimization** - checking only up to square root
+- **Nested Loops** - sieve implementation
+
+**📂 File:** [`PrimeChecker.java`](PrimeChecker.java)
+
+---
+
+### 1️⃣8️⃣ BubbleSort - Sorting Algorithm with Visualization
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Interactive bubble sort implementation with step-by-step visualization and multiple sorting options.
+
+**✨ Features:**
+- Sort arrays in ascending order
+- Sort arrays in descending order
+- Visualized sorting with step-by-step output
+- Optimized with early termination when sorted
+- Shows swap operations in real-time
+
+**🧠 Concepts Learned:**
+- **Bubble Sort Algorithm** - comparison-based sorting
+- **Nested Loops** - algorithm implementation
+- **Array Swapping** - element exchange technique
+- **Algorithm Optimization** - early termination with swapped flag
+- **Arrays.toString()** - convenient array display
+
+**📂 File:** [`BubbleSort.java`](BubbleSort.java)
+
+---
+
+### 1️⃣9️⃣ StringManipulator - String Operations Toolkit
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Comprehensive string manipulation program with 7 different operations for text processing.
+
+**✨ Features:**
+- Reverse strings using StringBuilder
+- Count vowels and consonants
+- Check palindromes (case-insensitive)
+- Count words and characters
+- Convert case (upper, lower, toggle)
+- Remove duplicate characters
+- Check if strings are anagrams
+
+**🧠 Concepts Learned:**
+- **StringBuilder** - efficient string building
+- **Character Processing** - `Character.isLetter()`, `Character.isUpperCase()`
+- **Regular Expressions** - `replaceAll("\\s+", "")`
+- **String Methods** - `split()`, `trim()`, `toCharArray()`
+- **Arrays.sort()** - sorting character arrays for anagrams
+- **Arrays.equals()** - comparing arrays
+
+**📂 File:** [`StringManipulator.java`](StringManipulator.java)
+
+---
+
+### 2️⃣0️⃣ MatrixOperations - 2D Array Matrix Calculator
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Matrix operations program supporting addition, subtraction, multiplication, transpose, and symmetric checking.
+
+**✨ Features:**
+- Add two matrices
+- Subtract two matrices
+- Multiply two matrices (with dimension validation)
+- Transpose a matrix
+- Check if matrix is symmetric
+- User-friendly matrix input system
+
+**🧠 Concepts Learned:**
+- **2D Arrays** - matrix representation
+- **Nested Loops** - matrix traversal and operations
+- **Matrix Algorithms** - addition, multiplication, transpose
+- **Dimension Validation** - ensuring compatible matrix sizes
+- **Row-Column Operations** - matrix multiplication logic
+
+**📂 File:** [`MatrixOperations.java`](MatrixOperations.java)
+
+---
+
+### 2️⃣1️⃣ LeapYearChecker - Leap Year Calculator
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Comprehensive leap year program with range finding, month day calculation, and age analysis.
+
+**✨ Features:**
+- Check if a year is a leap year
+- Find leap years in a range
+- Find next N leap years from a given year
+- Get days in any month (considering leap years)
+- Calculate age with leap year counting
+
+**🧠 Concepts Learned:**
+- **Leap Year Algorithm** - divisibility rules (400, 100, 4)
+- **Conditional Logic** - multiple condition checking
+- **Arrays** - month days storage
+- **Range Processing** - finding years in intervals
+- **Calendar Calculations** - days per month logic
+
+**📂 File:** [`LeapYearChecker.java`](LeapYearChecker.java)
+
+---
+
+### 2️⃣2️⃣ Calculator - Interactive Scientific Calculator  
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Full-featured calculator with 8 operations in a continuous loop interface.
+
+**✨ Features:**
+- Basic arithmetic (add, subtract, multiply, divide, modulus)
+- Percentage calculations
+- Square root with negative number validation
+- Power (exponentiation) calculations
+- Continuous calculation mode with exit option
+- Error handling for division by zero
+
+**🧠 Concepts Learned:**
+- **While Loops** - continuous program execution
+- **Boolean Flags** - loop control with `continueCalculating`
+- **Input Validation** - checking for invalid operations
+- **Double.isNaN()** - checking for Not-a-Number values
+- **Formatted Output** - printf for clean display
+
+**📂 File:** [`Calculator.java`](Calculator.java)
+
+---
+
+### 2️⃣3️⃣ GCDCalculator - GCD & LCM Calculator
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Advanced calculator for Greatest Common Divisor (GCD) and Least Common Multiple (LCM) with step-by-step visualization.
+
+**✨ Features:**
+- Find GCD using Euclidean algorithm
+- Calculate LCM efficiently
+- Support for multiple numbers (GCD/LCM of arrays)
+- Check if two numbers are coprime
+- Display step-by-step GCD calculation
+- Verify GCD × LCM = product property
+
+**🧠 Concepts Learned:**
+- **Euclidean Algorithm** - efficient GCD calculation
+- **Math.abs()** - handling negative numbers
+- **Arrays** - processing multiple numbers
+- **Algorithm Visualization** - showing calculation steps
+- **Number Theory** - coprime numbers, divisibility
+
+**📂 File:** [`GCDCalculator.java`](GCDCalculator.java)
+
+---
+
+### 2️⃣4️⃣ PatternPrinter - Pattern Generator
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Pattern printing program featuring 8 different patterns including triangles, pyramids, and special number patterns.
+
+**✨ Features:**
+- Right triangle pattern
+- Inverted right triangle
+- Pyramid pattern
+- Diamond pattern
+- Number pyramid (1 2 3 2 1 style)
+- Floyd's triangle (incremental numbers)
+- Pascal's triangle
+- Hollow square pattern
+
+**🧠 Concepts Learned:**
+- **Nested Loops** - pattern generation logic
+- **Spacing Control** - alignment with spaces
+- **Pattern Algorithms** - mathematical pattern formulas
+- **Binomial Coefficients** - Pascal's triangle calculation
+- **Loop Control** - managing multiple loop variables
+
+**📂 File:** [`PatternPrinter.java`](PatternPrinter.java)
+
+---
+
+### 2️⃣5️⃣ TemperatureConverter - Temperature Unit Converter
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Temperature conversion utility supporting Celsius, Fahrenheit, and Kelvin with comprehensive conversion options.
+
+**✨ Features:**
+- Convert between Celsius, Fahrenheit, and Kelvin
+- Individual conversions (6 different pairs)
+- Show all conversions at once from any unit
+- Formatted output with proper symbols (°C, °F, K)
+- Conversion formula references
+
+**🧠 Concepts Learned:**
+- **Temperature Formulas** - mathematical conversions
+- **Method Composition** - using methods within methods
+- **String Formatting** - `printf()` with format specifiers
+- **Switch with Strings** - `toUpperCase()` for case handling
+- **Floating Point Arithmetic** - precise temperature calculations
+
+**📂 File:** [`TemperatureConverter.java`](TemperatureConverter.java)
+
+---
+
+### 2️⃣6️⃣ QuadraticEquation - Quadratic Equation Solver
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Comprehensive quadratic equation solver with discriminant analysis and parabola information.
+
+**✨ Features:**
+- Solve ax² + bx + c = 0
+- Handle real, repeated, and complex roots
+- Display discriminant value
+- Show sum and product of roots
+- Calculate vertex and axis of symmetry
+- Determine parabola direction
+
+**🧠 Concepts Learned:**
+- **Quadratic Formula** - discriminant and root calculation
+- **Complex Numbers** - handling imaginary roots
+- **Math.sqrt()** - square root for real/complex cases
+- **Mathematical Properties** - sum/product of roots formulas
+- **Parabola Properties** - vertex, axis of symmetry
+
+**📂 File:** [`QuadraticEquation.java`](QuadraticEquation.java)
+
+---
+
+### 2️⃣7️⃣ NumberGuessingGame - Interactive Number Game  
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Fun number guessing game with difficulty levels, scoring system, and intelligent hints.
+
+**✨ Features:**
+- Three difficulty levels (Easy, Medium, Hard)
+- Custom range and attempt options
+- Scoring system (100 points maximum)
+- Proximity hints ("very close", "getting warmer")
+- Replay functionality
+- Input validation with try-catch
+
+**🧠 Concepts Learned:**
+- **Random Class** - generating random numbers
+- **Try-Catch Blocks** - exception handling for input
+- **Game Logic** - scoring and hints
+- **User Experience** - emoji feedback and messages
+- **Replay Loop** - `equalsIgnoreCase()` for Y/N input
+
+**📂 File:** [`NumberGuessingGame.java`](NumberGuessingGame.java)
+
+---
+
+### 2️⃣8️⃣ ArrayOperations - Array Utility Toolkit
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Comprehensive array operations program with 10 different utility functions.
+
+**✨ Features:**
+- Find maximum and minimum elements
+- Calculate sum and average
+- Reverse array in-place
+- Linear search for elements
+- Count element occurrences
+- Remove duplicate elements
+- Find second largest element
+- Check if array is sorted
+
+**🧠 Concepts Learned:**
+- **Array Traversal** - efficient element processing
+- **In-Place Algorithms** - array reversal without extra space
+- **Linear Search** - finding elements by iteration
+- **Duplicate Removal** - sorting and unique element extraction
+- **Arrays.copyOf()** - creating array copies
+- **Integer.MIN_VALUE** - using constants for comparisons
+
+**📂 File:** [`ArrayOperations.java`](ArrayOperations.java)
+
+---
+
+### 2️⃣9️⃣ PowerCalculator - Power & Root Calculator
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Advanced power calculation program featuring multiple algorithms including fast exponentiation.
+
+**✨ Features:**
+- Calculate powers (iterative method)
+- Calculate powers (recursive method)
+- Fast exponentiation algorithm
+- Square root calculation
+- Cube root calculation
+- Nth root of any number
+- Display power tables
+
+**🧠 Concepts Learned:**
+- **Recursion** - recursive power calculation
+- **Fast Exponentiation** - O(log n) algorithm
+- **Bitwise Operations** - exponent halving
+- **Math.cbrt()** - cube root function
+- **Algorithm Comparison** - iterative vs recursive vs fast
+- **Negative Exponents** - handling 1/result
+
+**📂 File:** [`PowerCalculator.java`](PowerCalculator.java)
+
+---
+
+### 3️⃣0️⃣ DigitCounter - Digit Analysis Tool
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Comprehensive digit analysis program with frequency counting and statistical operations.
+
+**✨ Features:**
+- Count total digits
+- Sum of all digits
+- Product of all digits
+- Reverse digit order
+- Count specific digit occurrences
+- Find maximum and minimum digits
+- Display digit frequency table
+- Complete analysis mode
+
+**🧠 Concepts Learned:**
+- **Digit Manipulation** - extracting and processing digits
+- **Frequency Arrays** - counting occurrences with int[10]
+- **Long Data Type** - handling large numbers
+- **Math.abs()** - handling negative numbers
+- **Modulus Patterns** - % 10 for last digit
+- **Statistical Analysis** - min, max, frequency
+
+**📂 File:** [`DigitCounter.java`](DigitCounter.java)
+
+---
+
+### 3️⃣1️⃣ PerfectNumber - Perfect Number Checker
+![Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+Number theory program for perfect, abundant, and deficient number classification.
+
+**✨ Features:**
+- Check if number is perfect (sum of divisors = number)
+- Find all divisors of a number
+- Classify as perfect/abundant/deficient
+- Find perfect numbers in a range
+- Find first N perfect numbers (with warnings)
+- Individual abundant/deficient checks
+
+**🧠 Concepts Learned:**
+- **Number Theory** - perfect numbers (6, 28, 496, etc.)
+- **Divisor Finding** - iterating to n/2
+- **Classification Logic** - comparing sum with original
+- **Algorithm Performance** - understanding rarity of perfect numbers
+- **Sum Accumulation** - building divisor sums
+
+**📂 File:** [`PerfectNumber.java`](PerfectNumber.java)
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
