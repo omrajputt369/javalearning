@@ -23,9 +23,7 @@ public class StackImpl {
 
     public int pop() {
         if (isEmpty()) {
-            System.out.println("Stack Underflow! Cannot
-
- pop");
+            System.out.println("Stack Underflow! Cannot pop");
             return -1;
         } else {
             int value = stackArray[top--];
