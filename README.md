@@ -829,44 +829,78 @@ This collection includes advanced sorting algorithms, searching techniques, data
 - Performance benchmarking with `System.nanoTime()`
 
 ---
-831: 
-832: ## 🚀 New Java Lab Programs (Batch 3)
-833: 
-834: ### 5️⃣7️⃣-7️⃣6️⃣ Interactive Games, Systems & Advanced Utilities (20 Programs)
-835: 
-836: A collection of interactive terminal games, management systems, and practical utility programs.
-837: 
-838: #### **Interactive Games** (3 programs)
-839: - **[`TicTacToeGame.java`](TicTacToeGame.java)** - Terminal-based 2-player Tic-Tac-Toe
-840: - **[`SudokuSolver.java`](SudokuSolver.java)** - Backtracking-based 9x9 Sudoku solver
-841: - **[`RockPaperScissors.java`](RockPaperScissors.java)** - Human vs Computer game
-842: 
-843: #### **Advanced Algorithms** (3 programs)
-844: - **[`BinaryTreeTraversal.java`](BinaryTreeTraversal.java)** - Inorder, Preorder, and Postorder traversals
-845: - **[`DijkstraAlgorithm.java`](DijkstraAlgorithm.java)** - Shortest path in weighted graphs
-846: - **[`KnapsackProblem.java`](KnapsackProblem.java)** - 0/1 Knapsack with Dynamic Programming
-847: 
-848: #### **Management Systems** (4 programs)
-849: - **[`LibraryManagementSystem.java`](LibraryManagementSystem.java)** - Simple book management system
-850: - **[`InventorySystem.java`](InventorySystem.java)** - Product stock tracking utility
-851: - **[`AttendanceManager.java`](AttendanceManager.java)** - Student attendance tracking record
-852: - **[`StudentGradeSystem.java`](StudentGradeSystem.java)** - Student grade calculator based on marks
-853: 
-854: #### **Networking & Web** (4 programs)
-855: - **[`ChatServer.java`](ChatServer.java)** - Basic socket-based chat server
-856: - **[`ChatClient.java`](ChatClient.java)** - Basic socket-based chat client
-857: - **[`WebScraperBasic.java`](WebScraperBasic.java)** - Basic HTML content fetcher
-858: - **[`JSONParserBasic.java`](JSONParserBasic.java)** - Simple recursive descent JSON parser
-859: 
-860: #### **Practical Utilities** (6 programs)
-861: - **[`FileEncryption.java`](FileEncryption.java)** - XOR-based file encryption/decryption
-862: - **[`RegexValidator.java`](RegexValidator.java)** - Email, Phone, and Password validation
-863: - **[`MultithreadedDownloader.java`](MultithreadedDownloader.java)** - Parallel file download simulation
-864: - **[`SimpleWeatherApp.java`](SimpleWeatherApp.java)** - Simulated weather data fetcher
-865: - **[`RecipeBook.java`](RecipeBook.java)** - Cookery recipe storage and retrieval
-866: - **[`QuizApplication.java`](QuizApplication.java)** - Interactive multiple-choice Java quiz
-867: 
-868: ---
+
+## 🚀 New Java Lab Programs (Batch 3)
+
+### 5️⃣7️⃣-7️⃣6️⃣ Interactive Games, Systems & Advanced Utilities (20 Programs)
+
+A collection of interactive terminal games, management systems, and practical utility programs.
+
+#### **Interactive Games** (3 programs)
+- **[`TicTacToeGame.java`](TicTacToeGame.java)** - Terminal-based 2-player Tic-Tac-Toe
+- **[`SudokuSolver.java`](SudokuSolver.java)** - Backtracking-based 9x9 Sudoku solver
+- **[`RockPaperScissors.java`](RockPaperScissors.java)** - Human vs Computer game
+
+#### **Advanced Algorithms** (3 programs)
+- **[`BinaryTreeTraversal.java`](BinaryTreeTraversal.java)** - Inorder, Preorder, and Postorder traversals
+- **[`DijkstraAlgorithm.java`](DijkstraAlgorithm.java)** - Shortest path in weighted graphs
+- **[`KnapsackProblem.java`](KnapsackProblem.java)** - 0/1 Knapsack with Dynamic Programming
+
+#### **Management Systems** (4 programs)
+- **[`LibraryManagementSystem.java`](LibraryManagementSystem.java)** - Simple book management system
+- **[`InventorySystem.java`](InventorySystem.java)** - Product stock tracking utility
+- **[`AttendanceManager.java`](AttendanceManager.java)** - Student attendance tracking record
+- **[`StudentGradeSystem.java`](StudentGradeSystem.java)** - Student grade calculator based on marks
+
+#### **Networking & Web** (4 programs)
+- **[`ChatServer.java`](ChatServer.java)** - Basic socket-based chat server
+- **[`ChatClient.java`](ChatClient.java)** - Basic socket-based chat client
+- **[`WebScraperBasic.java`](WebScraperBasic.java)** - Basic HTML content fetcher
+- **[`JSONParserBasic.java`](JSONParserBasic.java)** - Simple recursive descent JSON parser
+
+#### **Practical Utilities** (6 programs)
+- **[`FileEncryption.java`](FileEncryption.java)** - XOR-based file encryption/decryption
+- **[`RegexValidator.java`](RegexValidator.java)** - Email, Phone, and Password validation
+- **[`MultithreadedDownloader.java`](MultithreadedDownloader.java)** - Parallel file download simulation
+- **[`SimpleWeatherApp.java`](SimpleWeatherApp.java)** - Simulated weather data fetcher
+- **[`RecipeBook.java`](RecipeBook.java)** - Cookery recipe storage and retrieval
+- **[`QuizApplication.java`](QuizApplication.java)** - Interactive multiple-choice Java quiz
+
+---
+
+## 🌟 Advanced Java Lab (Batch 4)
+
+### 7️⃣7️⃣-9️⃣6️⃣ Design Patterns, Algorithms & System Simulations (20 Programs)
+
+A collection of Design Pattern demonstrations, graph algorithms, and system simulation utilities.
+
+#### **Design Patterns** (8 programs)
+- **[`CommandPatternDemo.java`](CommandPatternDemo.java)** - Encapsulating requests as objects
+- **[`ObserverPatternDemo.java`](ObserverPatternDemo.java)** - Subject-Observer subscription model
+- **[`FactoryPatternDemo.java`](FactoryPatternDemo.java)** - Object creation without specific classes
+- **[`SingletonPatternDemo.java`](SingletonPatternDemo.java)** - Ensuring a single class instance
+- **[`StrategyPatternDemo.java`](StrategyPatternDemo.java)** - Encapsulating interchangeable algorithms
+- **[`DecoratorPatternDemo.java`](DecoratorPatternDemo.java)** - Dynamic object responsibility attachment
+- **[`AdapterPatternDemo.java`](AdapterPatternDemo.java)** - Interface conversion for compatibility
+- **[`ProxyPatternDemo.java`](ProxyPatternDemo.java)** - Placeholder for another object
+
+#### **Data Structures & Algorithms** (6 programs)
+- **[`GraphTraversalBFS.java`](GraphTraversalBFS.java)** - Breadth-First Search implementation
+- **[`GraphTraversalDFS.java`](GraphTraversalDFS.java)** - Depth-First Search implementation
+- **[`HuffmanCodingBasic.java`](HuffmanCodingBasic.java)** - Basic data compression demo
+- **[`LRUCacheSimulation.java`](LRUCacheSimulation.java)** - Least Recently Used cache eviction
+- **[`BitManipulationDemo.java`](BitManipulationDemo.java)** - Common bitwise optimization tricks
+- **[`PriorityQueueDemo.java`](PriorityQueueDemo.java)** - Priority-based task scheduling
+
+#### **Concurrency & Systems** (6 programs)
+- **[`ProducerConsumerDemo.java`](ProducerConsumerDemo.java)** - Thread synchronization using wait/notify
+- **[`TextToSpeechBasic.java`](TextToSpeechBasic.java)** - Basic TTS engine interface simulation
+- **[`CurrencyFormatter.java`](CurrencyFormatter.java)** - Locale-specific currency formatting
+- **[`MarkdownToHTMLConverter.java`](MarkdownToHTMLConverter.java)** - Regex-based MD to HTML tool
+- **[`SimpleEncryptionSys.java`](SimpleEncryptionSys.java)** - AES-based encryption/decryption system
+- **[`PasswordStrengthChecker.java`](PasswordStrengthChecker.java)** - Password complexity analyzer
+
+---
 
 ## 🛠️ How to Run
 
