@@ -34,7 +34,7 @@ public class TerminalPOSSimulation {
             System.out.println("Transaction Cancelled.");
         }
 
-        // scanner.close(); // Not closing to avoid System.in issues if multiple runs
+        scanner.close();
     }
 
     private void simulateDelay(int ms) {

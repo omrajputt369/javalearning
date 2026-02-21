@@ -902,6 +902,42 @@ A collection of Design Pattern demonstrations, graph algorithms, and system simu
 
 ---
 
+## 💳 Payment Gateway System (Batch 5)
+
+### 9️⃣7️⃣-1️⃣1️⃣6️⃣ Transaction Processing, Security & Merchant Tools (20 Programs)
+
+This batch implements a simulated Payment Gateway, focusing on secure transaction handling, fraud detection, and merchant services.
+
+#### **Payment Core & Logic** (5 programs)
+- **[`PaymentProcessor.java`](PaymentProcessor.java)** - Standard interface for all payment methods
+- **[`TransactionManager.java`](TransactionManager.java)** - Lifecycle management for payment transactions
+- **[`BatchPaymentProcessor.java`](BatchPaymentProcessor.java)** - Processing multiple transactions in bulk
+- **[`CurrencyExchangeService.java`](CurrencyExchangeService.java)** - International conversion and FX rates simulation
+- **[`TerminalPOSSimulation.java`](TerminalPOSSimulation.java)** - Retail Point-of-Sale terminal interaction
+
+#### **Payment Methods** (3 programs)
+- **[`CreditCardProcessor.java`](CreditCardProcessor.java)** - Visa/MasterCard card validation and processing
+- **[`PayPalProcessor.java`](PayPalProcessor.java)** - Email-based digital wallet processing
+- **[`CryptoPaymentProcessor.java`](CryptoPaymentProcessor.java)** - Blockchain/Wallet-based decentralized payments
+
+#### **Security & Compliance** (4 programs)
+- **[`FraudDetectionSystem.java`](FraudDetectionSystem.java)** - Rule-based engine for suspicious activity detection
+- **[`SecureVaultService.java`](SecureVaultService.java)** - Data tokenization and secure storage vault
+- **[`AuthServiceProvider.java`](AuthServiceProvider.java)** - Merchant authentication and session handling
+- **[`TwoFactorAuthenticatorService.java`](TwoFactorAuthenticatorService.java)** - OTP-based 2FA verification flow
+
+#### **Business & Operations** (8 programs)
+- **[`InvoiceGeneratorService.java`](InvoiceGeneratorService.java)** - Text-based formal invoice generation
+- **[`PaymentReceiptService.java`](PaymentReceiptService.java)** - Digital receipt creation and formatting
+- **[`RefundManager.java`](RefundManager.java)** - Tracking and processing refund requests
+- **[`SubscriptionEngine.java`](SubscriptionEngine.java)** - Recurring billing and membership states
+- **[`WalletManagementSystem.java`](WalletManagementSystem.java)** - Virtual wallet balance and top-up manager
+- **[`MerchantPortalSystem.java`](MerchantPortalSystem.java)** - Business dashboard and sales reporting
+- **[`AuditLoggerService.java`](AuditLoggerService.java)** - Activity logging for security compliance
+- **[`PaymentGatewayProxy.java`](PaymentGatewayProxy.java)** - Proxy pattern for secure gateway access
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites

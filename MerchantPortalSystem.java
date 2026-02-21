@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * Simulates a Merchant Portal for managing business settings and viewing
  * summary.
