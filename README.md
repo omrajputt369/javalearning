@@ -990,6 +990,18 @@ Hello, Java!          ← Program echoes back
 - [x] **Accumulator Pattern** - building results through iterations
 - [x] **Factorial Algorithm** - iterative implementation
 
+- [x] **Design Patterns** - Command, Observer, Factory, Singleton
+- [x] **Advanced Patterns** - Strategy, Decorator, Adapter, Proxy
+- [x] **Graph Algorithms** - BFS and DFS traversals
+- [x] **Data Compression** - Huffman Coding fundamentals
+- [x] **Cache Algorithms** - LRU Cache implementation
+- [x] **Concurrency** - Thread sync with wait/notify
+- [x] **Secure Systems** - Payment gateway architecture
+- [x] **Security Features** - 2FA, Tokenization, Fraud Detection
+- [x] **Business Logic** - Subscriptions, Batch Processing, Wallets
+- [x] **FinTech Utilities** - Currency exchange, POS simulation
+- [x] **Audit & Compliance** - System event logging
+
 ### 🔄 In Progress
 - [ ] Data types and variables (advanced)
 - [ ] Operators and expressions
