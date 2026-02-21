@@ -1090,6 +1090,9 @@ java-learning/
 ├── ReverseNumber.java       # Reverse digits of a number
 ├── PalindromNumber.java     # Check if number is palindrome
 ├── Factorial.java           # Calculate factorial using for loop
+├── PaymentProcessor.java    # Payment gateway interface (Batch 5)
+├── FraudDetectionSystem.java # Fraud rules engine (Batch 5)
+├── SecureVaultService.java  # Tokenization service (Batch 5)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
