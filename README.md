@@ -1035,8 +1035,11 @@ Hello, Java!          ← Program echoes back
 - [x] **Secure Systems** - Payment gateway architecture
 - [x] **Security Features** - 2FA, Tokenization, Fraud Detection
 - [x] **Business Logic** - Subscriptions, Batch Processing, Wallets
-- [x] **FinTech Utilities** - Currency exchange, POS simulation
-- [x] **Audit & Compliance** - System event logging
+- [x] **Banking Architecture** - Interface-based account modeling
+- [x] **Financial Logic** - EMI, Overdraft, Maturity calculations
+- [x] **Compliance** - KYC, AML detection, Audit logging
+- [x] **Service Engines** - Fee calculation, Interest accrual
+- [x] **Customer Ops** - Support ticketing, Beneficiary management
 
 ### 🔄 In Progress
 - [ ] Data types and variables (advanced)
@@ -1090,6 +1093,10 @@ java-learning/
 ├── ReverseNumber.java       # Reverse digits of a number
 ├── PalindromNumber.java     # Check if number is palindrome
 ├── Factorial.java           # Calculate factorial using for loop
+├── BankSystemInterface.java # Banking core interface (Batch 6)
+├── SavingsAccount.java      # Savings account logic (Batch 6)
+├── AtmSimulation.java       # Interactive ATM terminal (Batch 6)
+├── LoanManagementSystem.java # Loan & EMI engine (Batch 6)
 ├── PaymentProcessor.java    # Payment gateway interface (Batch 5)
 ├── FraudDetectionSystem.java # Fraud rules engine (Batch 5)
 ├── SecureVaultService.java  # Tokenization service (Batch 5)
