@@ -1039,7 +1039,10 @@ Hello, Java!          ← Program echoes back
 - [x] **Financial Logic** - EMI, Overdraft, Maturity calculations
 - [x] **Compliance** - KYC, AML detection, Audit logging
 - [x] **Service Engines** - Fee calculation, Interest accrual
-- [x] **Customer Ops** - Support ticketing, Beneficiary management
+- [x] **Game Mechanics** - Move validation, Turn logic, Winning checks
+- [x] **Logic Puzzles** - Sudoku, Towers of Hanoi, Matchstick strategy
+- [x] **Simulation Physics** - Gravity, Collision detection, Randomness
+- [x] **State Management** - Pet needs, Quiz scoring, Card decks
 
 ### 🔄 In Progress
 - [ ] Data types and variables (advanced)
@@ -1093,10 +1096,12 @@ java-learning/
 ├── ReverseNumber.java       # Reverse digits of a number
 ├── PalindromNumber.java     # Check if number is palindrome
 ├── Factorial.java           # Calculate factorial using for loop
+├── TicTacToeTerminal.java   # 2-player grid game (Batch 7)
+├── BlackjackConsole.java    # Card game with dealer AI (Batch 7)
+├── TowerOfHanoiGame.java    # Recursive puzzle game (Batch 7)
+├── SudokuValidator.java     # Grid rule validator (Batch 7)
+├── GuessNumberGame.java     # Number guessing game (Batch 7)
 ├── BankSystemInterface.java # Banking core interface (Batch 6)
-├── SavingsAccount.java      # Savings account logic (Batch 6)
-├── AtmSimulation.java       # Interactive ATM terminal (Batch 6)
-├── LoanManagementSystem.java # Loan & EMI engine (Batch 6)
 ├── PaymentProcessor.java    # Payment gateway interface (Batch 5)
 ├── FraudDetectionSystem.java # Fraud rules engine (Batch 5)
 ├── SecureVaultService.java  # Tokenization service (Batch 5)
