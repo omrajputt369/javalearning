@@ -1096,12 +1096,12 @@ java-learning/
 ├── ReverseNumber.java       # Reverse digits of a number
 ├── PalindromNumber.java     # Check if number is palindrome
 ├── Factorial.java           # Calculate factorial using for loop
+├── EmployeeInterface.java   # Base EMS interface (Batch 8)
+├── PayrollSystem.java       # Centralized salary processing (Batch 8)
+├── AttendanceTracker.java   # Daily login/logout logger (Batch 8)
+├── TaxCalculatorEngine.java # Income tax slab engine (Batch 8)
+├── OrganizationalChart.java  # Hierarchy visualization (Batch 8)
 ├── TicTacToeTerminal.java   # 2-player grid game (Batch 7)
-├── BlackjackConsole.java    # Card game with dealer AI (Batch 7)
-├── TowerOfHanoiGame.java    # Recursive puzzle game (Batch 7)
-├── SudokuValidator.java     # Grid rule validator (Batch 7)
-├── GuessNumberGame.java     # Number guessing game (Batch 7)
-├── BankSystemInterface.java # Banking core interface (Batch 6)
 ├── PaymentProcessor.java    # Payment gateway interface (Batch 5)
 ├── FraudDetectionSystem.java # Fraud rules engine (Batch 5)
 ├── SecureVaultService.java  # Tokenization service (Batch 5)
