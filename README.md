@@ -938,6 +938,42 @@ This batch implements a simulated Payment Gateway, focusing on secure transactio
 
 ---
 
+## 🏃 Health & Fitness Tracker System (Batch 9)
+
+### 1️⃣1️⃣7️⃣-1️⃣3️⃣6️⃣ Health Monitoring, Fitness Planning & Analysis (20 Programs)
+
+This batch implements a comprehensive Health & Fitness Tracker System, focused on user bio-data, activity logging, and health metrics analysis.
+
+#### **Core & Profiles** (5 programs)
+- **[`HealthInterface.java`](HealthInterface.java)** - Base interface for all health tracking components
+- **[`UserFitnessProfile.java`](UserFitnessProfile.java)** - User biological data and fitness targets
+- **[`BMRCalculator.java`](BMRCalculator.java)** - Basal Metabolic Rate calculation logic
+- **[`BodyFatEstimator.java`](BodyFatEstimator.java)** - Body fat percentage estimation (Navy method)
+- **[`GoalSettingService.java`](GoalSettingService.java)** - Milestone management for health goals
+
+#### **Activity & Nutrition** (5 programs)
+- **[`CalorieTracker.java`](CalorieTracker.java)** - Daily net calorie intake and burn logic
+- **[`StepCounterLog.java`](StepCounterLog.java)** - Persistent physical activity logger
+- **[`WorkoutPlanner.java`](WorkoutPlanner.java)** - Exercise routine generation templates
+- **[`NutritionDatabase.java`](NutritionDatabase.java)** - In-memory food item and macro records
+- **[`MacroNutrientEngine.java`](MacroNutrientEngine.java)** - Protein, Carb, and Fat requirement breakdown
+
+#### **Vitals & Monitoring** (5 programs)
+- **[`HeartRateMonitorSim.java`](HeartRateMonitorSim.java)** - Training zone heart rate simulation
+- **[`SleepAnalyzer.java`](SleepAnalyzer.java)** - Sleep duration and quality metrics analysis
+- **[`WaterIntakeReminder.java`](WaterIntakeReminder.java)** - Hydration goal tracking and alerts
+- **[`HydrationLevelMonitor.java`](HydrationLevelMonitor.java)** - Dynamic water requirement calculator
+- **[`ActivityLevelScale.java`](ActivityLevelScale.java)** - Physical activity intensity classification
+
+#### **Tracking & Dashboards** (5 programs)
+- **[`WeightEvolutionTracker.java`](WeightEvolutionTracker.java)** - Body weight history and trend analysis
+- **[`MeditationTimer.java`](MeditationTimer.java)** - Mindfulness and session tracking
+- **[`FitnessChallengeSystem.java`](FitnessChallengeSystem.java)** - Gamified daily/weekly fitness tasks
+- **[`ProgressReportGen.java`](ProgressReportGen.java)** - Data aggregation into health summaries
+- **[`HealthSummaryDashboard.java`](HealthSummaryDashboard.java)** - Integrated health overview dashboard
+
+---
+
 ## 🛠️ How to Run
 
 ### Prerequisites
@@ -1043,6 +1079,7 @@ Hello, Java!          ← Program echoes back
 - [x] **Logic Puzzles** - Sudoku, Towers of Hanoi, Matchstick strategy
 - [x] **Simulation Physics** - Gravity, Collision detection, Randomness
 - [x] **State Management** - Pet needs, Quiz scoring, Card decks
+- [x] **Health Tracking** - Core interfaces and bio-metrics (Batch 9)
 
 ### 🔄 In Progress
 - [ ] Data types and variables (advanced)
@@ -1105,6 +1142,8 @@ java-learning/
 ├── PaymentProcessor.java    # Payment gateway interface (Batch 5)
 ├── FraudDetectionSystem.java # Fraud rules engine (Batch 5)
 ├── SecureVaultService.java  # Tokenization service (Batch 5)
+├── HealthInterface.java     # Base health interface (Batch 9)
+├── UserFitnessProfile.java  # User fitness targets (Batch 9)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
