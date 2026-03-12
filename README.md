@@ -1149,6 +1149,8 @@ java-learning/
 ├── WorkoutPlanner.java      # Workout routine generator (Batch 9)
 ├── WaterIntakeReminder.java # Hydration tracking logic (Batch 9)
 ├── SleepAnalyzer.java       # Sleep quality analysis (Batch 9)
+├── HeartRateMonitorSim.java # Heart rate simulation (Batch 9)
+├── BMRCalculator.java       # Basal Metabolic Rate calc (Batch 9)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
