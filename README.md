@@ -1144,6 +1144,7 @@ java-learning/
 ├── SecureVaultService.java  # Tokenization service (Batch 5)
 ├── HealthInterface.java     # Base health interface (Batch 9)
 ├── UserFitnessProfile.java  # User fitness targets (Batch 9)
+├── CalorieTracker.java      # Calorie intake/burn logic (Batch 9)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
