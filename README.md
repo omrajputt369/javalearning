@@ -938,6 +938,17 @@ This batch implements a simulated Payment Gateway, focusing on secure transactio
 
 ---
 
+## 🏠 Smart Home Automation System (Batch 10)
+
+### 1️⃣3️⃣7️⃣-1️⃣5️⃣6️⃣ IoT Device Simulation & Centralized Control (20 Programs)
+
+This batch implements a Smart Home Automation System, focusing on IoT device logic, sensor data processing, and centralized hub management.
+
+#### **Device Core** (2 programs)
+- **[`ISmartDevice.java`](ISmartDevice.java)** - Core interface for all smart devices
+
+---
+
 ## 🏃 Health & Fitness Tracker System (Batch 9)
 
 ### 1️⃣1️⃣7️⃣-1️⃣3️⃣6️⃣ Health Monitoring, Fitness Planning & Analysis (20 Programs)
