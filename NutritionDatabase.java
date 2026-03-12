@@ -10,7 +10,6 @@ public class NutritionDatabase implements HealthInterface {
     @Override
     public void initializeComponent() {
         caloriesPer100g = new HashMap<>();
-        macroRatios = new HashMap<>();
 
         // Populate sample data
         caloriesPer100g.put("Apple", 52.0);

@@ -1159,6 +1159,9 @@ java-learning/
 ├── MeditationTimer.java     # Mindfulness tracking (Batch 9)
 ├── WeightEvolutionTracker.java # Weight trend analysis (Batch 9)
 ├── MacroNutrientEngine.java # Macro-nutrient generator (Batch 9)
+├── ActivityLevelScale.java  # Activity multiplier engine (Batch 9)
+├── FitnessChallengeSystem.java # Gamified health goals (Batch 9)
+├── HealthSummaryDashboard.java # General health dashboard (Batch 9)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
