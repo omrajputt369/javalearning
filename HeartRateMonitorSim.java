@@ -3,7 +3,6 @@
  */
 public class HeartRateMonitorSim implements HealthInterface {
     private int currentHeartRate;
-    private int age;
     private int maxHeartRate;
 
     public HeartRateMonitorSim(int age) {

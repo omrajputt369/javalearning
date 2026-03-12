@@ -1151,6 +1151,8 @@ java-learning/
 ├── SleepAnalyzer.java       # Sleep quality analysis (Batch 9)
 ├── HeartRateMonitorSim.java # Heart rate simulation (Batch 9)
 ├── BMRCalculator.java       # Basal Metabolic Rate calc (Batch 9)
+├── NutritionDatabase.java   # Food nutrition data (Batch 9)
+├── GoalSettingService.java   # Fitness goal management (Batch 9)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
