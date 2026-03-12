@@ -6,7 +6,6 @@ public class HeartRateMonitorSim implements HealthInterface {
     private int maxHeartRate;
 
     public HeartRateMonitorSim(int age) {
-        this.age = age;
         this.maxHeartRate = 220 - age;
     }
 
