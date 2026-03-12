@@ -29,6 +29,7 @@ public class UserFitnessProfile implements HealthInterface {
         System.out.print("Enter Fitness Goal (e.g., Weight Loss, Muscle Gain): ");
         this.fitnessGoal = scanner.nextLine();
         System.out.println("Profile Initialized Successfully!");
+        scanner.close();
     }
 
     @Override
