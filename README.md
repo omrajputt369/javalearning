@@ -1147,6 +1147,8 @@ java-learning/
 ├── CalorieTracker.java      # Calorie intake/burn logic (Batch 9)
 ├── StepCounterLog.java      # Step and distance logger (Batch 9)
 ├── WorkoutPlanner.java      # Workout routine generator (Batch 9)
+├── WaterIntakeReminder.java # Hydration tracking logic (Batch 9)
+├── SleepAnalyzer.java       # Sleep quality analysis (Batch 9)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
