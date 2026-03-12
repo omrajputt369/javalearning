@@ -1155,6 +1155,8 @@ java-learning/
 ├── GoalSettingService.java   # Fitness goal management (Batch 9)
 ├── ProgressReportGen.java    # Health stats aggregation (Batch 9)
 ├── BodyFatEstimator.java    # Body fat calculation (Batch 9)
+├── HydrationLevelMonitor.java # Dynamic water needs (Batch 9)
+├── MeditationTimer.java     # Mindfulness tracking (Batch 9)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules

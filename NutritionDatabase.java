@@ -6,7 +6,6 @@ import java.util.Map;
  */
 public class NutritionDatabase implements HealthInterface {
     private Map<String, Double> caloriesPer100g;
-    private Map<String, String> macroRatios; // e.g., "P20/C50/F30"
 
     @Override
     public void initializeComponent() {
