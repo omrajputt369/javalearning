@@ -1157,6 +1157,8 @@ java-learning/
 ├── BodyFatEstimator.java    # Body fat calculation (Batch 9)
 ├── HydrationLevelMonitor.java # Dynamic water needs (Batch 9)
 ├── MeditationTimer.java     # Mindfulness tracking (Batch 9)
+├── WeightEvolutionTracker.java # Weight trend analysis (Batch 9)
+├── MacroNutrientEngine.java # Macro-nutrient generator (Batch 9)
 ├── LICENSE                  # MIT License
 ├── README.md                # This file
 └── .gitignore               # Git ignore rules
